@@ -1,0 +1,23 @@
+# Standard Metadata
+.DS_Store
+*.swp
+
+# Compiled Binaries
+server_exec
+client_exec
+test_runner
+
+# Object Files and Libraries
+*.o
+*.a
+*.so
+
+# Directory-specific objects (just in case)
+server/*.o
+client/*.o
+tests/*.o
+inc/libft/*.o
+
+# Criterion/Testing artifacts
+.criterion/
+tests/test_runner
